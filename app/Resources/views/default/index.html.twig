@@ -44,6 +44,26 @@
 
         </div>
     </div>
+
+    <div>
+        <h1>Routes disponibles :</h1>
+        <ul>
+            <li>
+                <a href="{{ path('planemodel_index') }}">Voir les avions</a>
+            </li>
+            <li>
+                <a href="{{ path('reservation_index') }}">Voir les reservations</a>
+            </li>
+            <li>
+                <a href="{{ path('flight_index') }}">Voir les vols</a>
+            </li>
+            <li>
+                <a href="{{ path('site_index') }}">Voir les terrains</a>
+            </li>
+        </ul>
+
+    </div>
+
 {% endblock %}
 
 {% block stylesheets %}
@@ -73,4 +93,5 @@
         .sf-toolbar { opacity: 0; -webkit-animation: fade-in 1s .2s forwards; animation: fade-in 1s .2s forwards;}
     }
 </style>
+
 {% endblock %}
