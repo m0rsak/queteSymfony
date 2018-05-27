@@ -18,7 +18,15 @@ class Review
 
     public function __toString()
     {
-        return $this->id;
+        return $this->publicationDate;
+    }
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->reviews = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**

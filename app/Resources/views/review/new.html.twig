@@ -3,10 +3,16 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>NEW_REVIEW</h1>
+    <h1>Review creation</h1>
 
-<form method="POST" action="/review/">
-    <input type="submit" value=" Send !">
-</form>
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    <input type="submit" value="Create" />
+    {{ form_end(form) }}
 
+    <ul>
+        <li>
+            <a href="{{ path('review_index') }}">Back to the list</a>
+        </li>
+    </ul>
 {% endblock %}
