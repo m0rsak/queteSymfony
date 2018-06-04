@@ -42,3 +42,9 @@ security:
             - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
             - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
             - { path: ^/admin/, role: ROLE_ADMIN }
+            - { path: ^/planemodel/, role: ROLE_USER }
+            - { path: ^/reservation/, role: ROLE_USER }
+            - { path: ^/flight/, role: ROLE_USER }
+            - { path: ^/site/, role: ROLE_USER }
+            - { path: ^/review/, role: ROLE_USER }
+

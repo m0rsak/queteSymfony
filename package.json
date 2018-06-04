@@ -1,0 +1,29 @@
+{
+  "name": "symfonyencore",
+  "version": "1.0.0",
+  "description": "flyaround =========",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "webpack-notifier": "^1.6.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0rsak/queteSymfony.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m0rsak/queteSymfony/issues"
+  },
+  "homepage": "https://github.com/m0rsak/queteSymfony#readme"
+}
