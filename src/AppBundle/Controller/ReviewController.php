@@ -57,6 +57,7 @@ Class ReviewController extends Controller
         $review = new Review();
         $form = $this->createForm(ReviewType::class, $review);
 
+        dump($form);
         // build the form ...
 
         $form->handleRequest($request);

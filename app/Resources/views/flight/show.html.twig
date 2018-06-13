@@ -26,6 +26,14 @@
                 <td>{% if flight.publicationDate %}{{ flight.publicationDate|date('Y-m-d H:i:s') }}{% endif %}</td>
             </tr>
             <tr>
+                <th>Distance</th>
+                <td>{% if distance %}{{ distance|number_format(2,',',' ') }}{% endif %} kms</td>
+            </tr>
+            <tr>
+                <th>Durée Trajet</th>
+                <td>{% if temps %}{{ temps|number_format(2,',',' ') }}{% endif %} Heures</td>
+            </tr>
+            <tr>
                 <th>Description</th>
                 <td>{{ flight.description }}</td>
             </tr>
